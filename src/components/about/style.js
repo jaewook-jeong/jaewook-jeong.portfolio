@@ -11,6 +11,13 @@ export const AboutSection = styled.section`
     text-align: left;
   }
 `
+export const WhatIDoSection = styled.section`
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr;
+  grid-template-rows: repeat(7, 0.8fr);
+  grid-gap: 3rem;
+  text-align: left;
+`
 export const Avatar =styled(Img)`
   border-radius: 5px;
   box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.15);
@@ -25,8 +32,8 @@ export const Title = styled.h1`
   }
 `
 export const Text = styled.p`
-  font-size: 1.2rem;
-  line-height: 2;
+  font-size: 1.1rem;
+  line-height: 1.5;
   color: #232323;
   text-transform: capitalize;
   a {
