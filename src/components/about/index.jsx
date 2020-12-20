@@ -47,16 +47,16 @@ const About = () => {
               <CircularProgressbar value={70} text="JS" styles={{ path: {stroke :'#e8d976'}, text: {fill: '#e8d976'} }} />
               <Text>ES6를 활용한 풀스택 개발을 할 수 있습니다. node를 백엔드로 ajax로 통신하여 프로젝트를 구현하였습니다.</Text>
               <CircularProgressbar value={80} text="React" styles={{ path: {stroke :'#D0b990'}, text: {fill: '#D0b990'} }} />
-              <Text>Next로 프로젝트를 구현하였고, gatsby로 github페이지를 만들었습니다. 또한 styledcomponent를 사용하여 React에 css를 입혔습니다.</Text>
+              <Text>Next로 프로젝트를 구현하였고, gatsby로 github페이지를 만들었습니다. 또한 styled-component를 사용하여 React에 css를 입혔습니다.</Text>
               <CircularProgressbar value={65} text="Java" styles={{ path: {stroke :'#b1876b'}, text: {fill: '#b1876b'} }}/>
-              <Text>Spring프레임워크로 서버개발을 한 경험이 있습니다. Mybatis를 이용하여 DB연결 및 CRUD처리를 하였습니다.</Text>
+              <Text>Spring프레임워크로 서버개발을 하였습니다. Mybatis를 이용하여 DB(Oracle)연결 및 CRUD처리를 하였습니다.</Text>
               <CircularProgressbar value={40} text="AWS" styles={{ path: {stroke :'#92574b'}, text: {fill: '#92574b'} }}/>
-              <Text>AWS로 서버를 운영하고 EC2를 확장하였습니다. 현재는 nginx를 통한 무중단 배포를 준비중에 있습니다. </Text>
+              <Text>AWS EC2로 프론트서버와 백엔드서버를 운영하였습니다. Nginx와 Docker, Travis CI를 활용하여 배포자동화 및 무중단배포를 구축하였습니다. 또한 다양한 시도(ex. 원하는 시간에 서버 켜고 끄기)와 활용을 하였고 이를 블로그에 기록으로 남겼습니다. </Text>
               <CircularProgressbar value={40} text="Docker" styles={{ path: {stroke :'#733136'}, text: {fill: '#733136'} }}/>
-              <Text>개발한 웹 애플리케이션은 Dockerizing하여 AWS운영에 사용하였습니다.</Text>
+              <Text>개발한 웹 애플리케이션을 Dockerizing하여 EC2와 CodeDeploy를 사용하여 배포하였습니다.</Text>
               <CircularProgressbar value={70} text="RDBMS" styles={{ path: {stroke :'#541c2d'}, text: {fill: '#541c2d'} }}/>
               <Text>Mysql, Oracle을 활용하여 데이터 CRUD를 작업하였습니다. node에서는 Squelize를 활용하여 처리한 경험도 있습니다.</Text>
-              <CircularProgressbar value={60} text="Github" styles={{ path: {stroke :'#350d23'}, text: {fill: '#350d23'} }}/>
+              <CircularProgressbar value={60} text="Git" styles={{ path: {stroke :'#350d23'}, text: {fill: '#350d23'} }}/>
               <Text>Git으로 소스코드를 관리하고 협업을 진행하였습니다. 또한 GithubPage를 통해 포트폴리오 사이트를 작업하였습니다.</Text>
             </WhatIDoSection>
           </AboutSection>
